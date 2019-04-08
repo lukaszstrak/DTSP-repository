@@ -85,13 +85,14 @@ The aim of this repository is to unify the process of testing DTPS algorithms. T
 ## File format
 
 The data file with problem instance contains additional headers:
-  - ITERATION - the subproblem number,
-  - ITERATIONS - count of all subproblems in file,
-  - OPTIMUM - the optimal tour length,
-  - OPTIMUM_TOUR - the optimal tour in node notation,
-  - LOCATIONS_CHANGED - % value of nodes that changed in every subproblem, start from the first (the original one),
-  - CHANGE_COEFFICIENT - when node coordination is randomly changed the new value is calculated based on (1-CHANGE_COEFFICIENT) of the actual position and CHANGE_COEFFICIENT of randomized value,
-  - CREATION DATE - generate date (should be the same as in file name).
+- ITERATION - the subproblem number,
+- ITERATIONS - count of all subproblems in the file,
+- OPTIMUM - the optimal tour length,
+- OPTIMUM_TOUR - the optimal tour in node notation,
+- LOCATIONS_CHANGED - % value of nodes that changed in every subproblem, start from the first (the original one),
+- CHANGE_COEFFICIENT - when node coordination is randomly changed the new value is calculated based on (1-CHANGE_COEFFICIENT) of the actual position and CHANGE_COEFFICIENT of randomized value,
+- CREATION DATE - generated date (should be the same as in file name).
+
 
 ## GitHub repository folder structure
 
