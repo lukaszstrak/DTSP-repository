@@ -101,4 +101,4 @@ The data file with problem instance contains additional headers:
 ## Examples
 
 An example of DTSP problem instance with 5% nodes coordinates changes:
-![](berlin52_20140618090019_0.opt.svg)
+<img src="berlin52_20140618090019_0.opt.svg" alt="alt text" width=500>
