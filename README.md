@@ -1,6 +1,25 @@
 # DTSP repository
 
-The aim of this repository is to unify the process of testing DTPS algorithms. The repository instance file contains data of the original TSP problem instance (from TSPLIB) and 10 changes (sub-problems). Besides the data itself, data file contain the optimal value. The "plot" folder contains tour visualization in SVG format and highlighted edges that were changed. Contact to authors: Łukasz Strąk (lukasz.strak@us.edu.pl), Rafał Skinderowicz (rafal.skinderowicz@us.edu.pl).
+This repository aims to simplify the process of testing the algorithms for
+solving the Dynamic Travelling Salesman Problem (DTSP).  The repository
+contains a set of the DTSP instances created based on the instances from the
+well-known TSPLIB repository. Precisely, each DTSP instance consists of the
+original TSP instance and ten sub-problems. The first sub-problem is created
+based on the original TSP instance by modifying (moving) the coordinates of a
+percentage of the instance's cities (nodes).  The second sub-problem is created
+analogously based on the first sub-problem, and so on.
+
+For every sub-problem, the **optimum** is provided.  The "plot" folder contains
+a visualization of the optimal solutions for each DTSP instance, i.e., for each
+of its sub-problems, in the SVG format. The optimal solutions for subsequent
+problems may be different from each other, i.e., some of the edges are removed
+and replaced with others. The edges of an optimal tour that do not belong to
+the (optimal) solution for the previous sub-problem are marked in red.
+
+Contact to authors: Łukasz
+Strąk (lukasz.strak@us.edu.pl), Rafał Skinderowicz
+(rafal.skinderowicz@us.edu.pl).
+
 
 ## Selected Features
   - based on well-known TSPLIB instances,
