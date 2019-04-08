@@ -99,7 +99,7 @@ The data file with problem instance contains additional headers:
 - [out] raw problems instances files,
 - [plot] the optimal tour visualization of the DTSP problem instance.
 
-## Examples
+## Example
 
 An example of DTSP problem instance with 5% nodes coordinates changes:
 <img src="berlin52_20140618090019_0.opt.svg" alt="alt text" width=500>
