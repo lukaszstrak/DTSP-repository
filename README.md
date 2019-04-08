@@ -1,6 +1,6 @@
 # DTSP repository
 
-The aim of this repository is to unify the process of testing DTPS algorithms. The repository instance file contains data of the original TSP problem instance (from TSPLIB) and 10 changes (subproblems). Besides the data itself, data file contain the optimal value. The "visualization" folder contains tour visualization in SVG format and highlighted edges that were changed. Contact to authors: Łukasz Strąk (lukasz.strak@us.edu.pl), Rafał Skinderowicz (rafal.skinderowicz@us.edu.pl).
+The aim of this repository is to unify the process of testing DTPS algorithms. The repository instance file contains data of the original TSP problem instance (from TSPLIB) and 10 changes (subproblems). Besides the data itself, data file contain the optimal value. The "plot" folder contains tour visualization in SVG format and highlighted edges that were changed. Contact to authors: Łukasz Strąk (lukasz.strak@us.edu.pl), Rafał Skinderowicz (rafal.skinderowicz@us.edu.pl).
 
 ## Selected Features
   - based on well-known TSPLIB instances,
