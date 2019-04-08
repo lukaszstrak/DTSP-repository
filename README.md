@@ -3,10 +3,10 @@
 The aim of this repository is to unify the process of testing DTPS algorithms. The repository instance file contains data of the original TSP problem instance (from TSPLIB) and 10 changes (subproblems). Besides the data itself, data file contain the optimal value. The "visualization" folder contains tour visualization in SVG format and highlighted edges that were changed. Contact to authors: Łukasz Strąk (lukasz.strak@us.edu.pl), Rafał Skinderowicz (rafal.skinderowicz@us.edu.pl).
 
 ## Selected Features
-  - based on well-known TSPLIB instances
-  - TSPLIB format with additional headers
-  - contain 10 changes with the optimal value
-  - the optimal tour visualization
+  - based on well-known TSPLIB instances,
+  - TSPLIB format with additional headers,
+  - contain 10 changes with the optimal value,
+  - the optimal tour visualization.
 
 ## List of problems
 
@@ -85,18 +85,18 @@ The aim of this repository is to unify the process of testing DTPS algorithms. T
 ## File format
 
 The data file with problem instance contains additional headers:
-  - ITERATION - the subproblem number
-  - ITERATIONS - count of all subproblems in file
-  - OPTIMUM - the optimal tour length
-  - OPTIMUM_TOUR - the optimal tour in node notation
-  - LOCATIONS_CHANGED - % value of nodes that changed in every subproblem, start from the first (the original one)
-  - CHANGE_COEFFICIENT - when node coordination is randomly changed the new value is calculated based on (1-CHANGE_COEFFICIENT) of the actual position and CHANGE_COEFFICIENT of randomized value
-  - CREATION DATE - generate date (should be the same as in file name)
+  - ITERATION - the subproblem number,
+  - ITERATIONS - count of all subproblems in file,
+  - OPTIMUM - the optimal tour length,
+  - OPTIMUM_TOUR - the optimal tour in node notation,
+  - LOCATIONS_CHANGED - % value of nodes that changed in every subproblem, start from the first (the original one),
+  - CHANGE_COEFFICIENT - when node coordination is randomly changed the new value is calculated based on (1-CHANGE_COEFFICIENT) of the actual position and CHANGE_COEFFICIENT of randomized value,
+  - CREATION DATE - generate date (should be the same as in file name).
 
 ## GitHub repository folder structure
 
-- [data/out] raw problems instances files
-- [data/plot] the optimal tour visualization of the DTSP problem instance
+- [data/out] raw problems instances files,
+- [data/plot] the optimal tour visualization of the DTSP problem instance.
 
 ## Examples
 
