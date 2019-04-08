@@ -96,8 +96,8 @@ The data file with problem instance contains additional headers:
 
 ## GitHub repository folder structure
 
-- [data/out] raw problems instances files,
-- [data/plot] the optimal tour visualization of the DTSP problem instance.
+- [out] raw problems instances files,
+- [plot] the optimal tour visualization of the DTSP problem instance.
 
 ## Examples
 
